@@ -14,10 +14,8 @@ const VOCALES = {
     'o': 'ober',
     'u': 'ufat'
 }
-encriptador.addEventListener('click', (e) => {
-    e.preventDefault()
-    encriptador.value = ''
-    encriptador.classList.add('.form-control-plaintext.newtext')
+encriptador.addEventListener('input', (e) => {
+    inputTexto.style.width = inputTexto.value.length * 8 + 'px'
 })
 
 bttn.addEventListener('click', (e) => {

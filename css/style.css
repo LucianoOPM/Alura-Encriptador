@@ -35,7 +35,11 @@ header{
 
 .form{
     height: 85vh;
+    margin-top: 15px ;
     width: 70vw;
+    position: relative;
+    left: 40px;
+    border: black 5px solid;
 }
 
 .form-control-plaintext.custom-style{
@@ -43,14 +47,14 @@ header{
     width: 1000px;
     left: 20%;
     top: 10%;
-    font-weight:lighter;
-    color: darkblue;
+    font-weight:400;
+    color: black;
+    font-size: 20px;
 }
 .form-control-plaintext.custom-style::placeholder{
-    color: darkblue;
+    color: black;
     font-size:large;
-    font-weight:lighter;
-    width: 155px;
+    font-weight:400;
 }
 .buttons{
     width: 570px;
@@ -58,7 +62,7 @@ header{
     position: relative;
     text-align: center;
     top: 75%;
-    left: 35%;
+    left: 27%;
 }
 
 .btn.btn-primary{
@@ -76,7 +80,7 @@ header{
 .alert{
     position: relative;
     top: 75%;
-    left: 35%;
+    left: 27%;
 }
 .alert img{
     position: absolute;
@@ -93,21 +97,27 @@ header{
     font-size: 16px;
 }
 .output{
+    margin-top: 15px;
     position: absolute;
     left: 75%;
     top: 10%;
     height: 85vh;
-    width: 20vw;
+    width: 450px;
+    border: black 5px solid;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
 }
 
 .output output{
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 55px;
 }
 .output button{
-    position: relative;
-    top: 500px;
+    position: absolute;
+    top: 650px;
     left: 33%;
+    border: black solid 3px;
+    border-radius: 20px;
 }
