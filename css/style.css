@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "custom";
+    src: url('../assets/fuentes/CastoroTitling-Regular.ttf');
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+header{
+    height: 100px;
+}
+
+.header__icon{
+    width: 39.09px;
+    height: 40px;
+    
+    position: relative;
+    top: 40%;
+    left: 100px;
+}
+.header__text{
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    top: 40%;
+    font-family: "custom";
+    font-weight: bold;
+}
+
+.form{
+    height: 85vh;
+    width: 70vw;
+}
+
+.form-control-plaintext.custom-style{
+    position: relative;
+    width: 1000px;
+    left: 20%;
+    top: 10%;
+    font-weight:lighter;
+    color: darkblue;
+}
+.form-control-plaintext.custom-style::placeholder{
+    color: darkblue;
+    font-size:large;
+    font-weight:lighter;
+    width: 155px;
+}
+.buttons{
+    width: 570px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    top: 75%;
+    left: 35%;
+}
+
+.btn.btn-primary{
+    margin-right: 25px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+.btn.btn-secondary{
+    margin-left: 25px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+}
+.alert{
+    position: relative;
+    top: 75%;
+    left: 35%;
+}
+.alert img{
+    position: absolute;
+    top: 53px;
+    left: 14px;
+    width: 16px;
+    height: 16px;
+}
+.alert h5{
+    display: inline-block;
+    position: relative;
+    top:32px;
+    left: 17px;
+    font-size: 16px;
+}
+.output{
+    position: absolute;
+    left: 75%;
+    top: 10%;
+    height: 85vh;
+    width: 20vw;
+}
+
+.output output{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 55px;
+}
+.output button{
+    position: relative;
+    top: 500px;
+    left: 33%;
+}
